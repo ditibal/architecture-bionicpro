@@ -1,0 +1,10 @@
+[project]
+name = "API"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=45.0.6",
+    "fastapi[standard]>=0.112.2",
+    "pyjwt>=2.10.1",
+]
